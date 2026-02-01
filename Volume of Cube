@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+   int a;
+   cout << "enter side of cube ";
+   cin >> a;
+
+cout << pow(a,3);
+
+
+
+    return 0;
+}
