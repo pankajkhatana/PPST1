@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+   
+int a,b;
+   cout << "enter base of triangle ";
+   cin >> a;
+   cout << "enter height of triangle";
+   cin >> b;
+
+cout << 0.5*a*b;
+
+   
+
+
+
+    return 0;
+}
