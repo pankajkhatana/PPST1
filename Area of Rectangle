@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+   int a,b;
+   cout << "enter length of rectangle ";
+   cin >> a;
+   cout << "enter breadth of rectangle";
+   cin >> b;
+
+cout << 2*a*b;
+
+    return 0;
+}
