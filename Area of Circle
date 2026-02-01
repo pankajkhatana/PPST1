@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+   int a;
+   cout << "enter radius of circle ";
+   cin >> a;
+
+cout << 3.14*a*a;
+
+   
+
+    return 0;
+}
