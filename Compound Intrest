@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    float P, R, T;
+
+    cout << "Enter Principal amount: ";
+    cin >> P;
+
+    cout << "Enter Rate of Interest: ";
+    cin >> R;
+
+    cout << "Enter Time (in years): ";
+    cin >> T;
+
+    float Amount = P * pow((1 + R / 100), T);
+    float CI = Amount - P;
+
+    cout << "Compound Interest = " << CI << endl;
+    cout << "Total Amount = " << Amount << endl;
+
+    return 0;
+}
