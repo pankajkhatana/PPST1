@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+   int a,b;
+   cout << "enter radius of cylinder ";
+   cin >> a;
+   cout << "enter height of cylinder ";
+   cin >> b;
+cout << 3.14*a*a*b;
+
+
+
+    return 0;
+}
