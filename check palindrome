@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, num, digit, rev = 0;
+
+    cout << "Enter a number: ";
+    cin >> n;
+
+    num = n; // Store original number to compare later
+
+    // Logic to reverse the number
+    while (n > 0) {
+        digit = n % 10;          // Get the last digit
+        rev = (rev * 10) + digit; // Build the reversed number
+        n = n / 10;              // Remove the last digit
+    }
+
+    if (num == rev)
+        cout << num << " is a Palindrome.";
+    else
+        cout << num << " is not a Palindrome.";
+
+    return 0;
+}
